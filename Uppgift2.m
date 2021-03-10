@@ -1,5 +1,6 @@
  %Uppgift 2 Matlab-uppgift Carl Blixt 20000702-0191 Kurskod: 1FA527
  
+ % FADDE: L'gger till en kommentar h'r 
 close all
 clear all 
 
