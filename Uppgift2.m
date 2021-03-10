@@ -7,7 +7,7 @@ clear all
 P1=0.1; % Trycket känt i punkt 1 angivet i bar samt att detta är en mättad vätska. 
 P2=90;  % Angivet i uppgift
 P6=P1; %Dessa antagande baseras på det som skrivs i förklarande text. 
-P3=P2;  % Isobar 
+P3=P2;  
 
 
 s1=XSteam('sL_p', P1); % Läser in entropi för den mättadevätskan, med känt tryck
@@ -53,7 +53,7 @@ qut=h6-h1;
 
 nth=1-(qut./qin);
     
-figure(1) % Formalia. 
+figure(1) 
 plot(T3,nth,'r')
 xlabel('Temperatur [Celcius]')
 ylabel('Verkningsgrad')
@@ -96,7 +96,7 @@ qut2=h6-h1;
 nth2= 1-(qut2./qin2);
 %Kvoten av P4/P3 som eftertraktas i upgiften. 
 k=P4/P3;
-%Sätter en ny figur och plottar sedan 
+%Sätter en ny figur och plottar  
 figure(2)
 plot(k,nth2)
 xlabel('Kvoten P4/P3 ')
